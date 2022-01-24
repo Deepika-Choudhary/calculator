@@ -1,0 +1,33 @@
+body{
+    /* max-width: 500px; */
+    margin: 3rem;
+    background: url('bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+h2{
+    margin-left: 6rem;
+    font-size: 2.5rem;
+}
+
+input {
+    width: 24.5rem;
+    height: 2rem;
+    text-align: right;
+}
+
+button {
+    padding: 1rem;
+    width: 6rem;
+    font-weight: 3rem;
+    background-color: #192a56;
+    color: #dcdde1;
+}
+
+button:hover{
+    background-color: #82ccdd;
+}
+
+button:active{
+    background-color: #f1f2f6;
+}

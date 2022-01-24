@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h2>Calculator</h2>
+    <div class="box">
+        <input type="text" placeholder="0" id="result"></input>
+        <table>
+            <tr class="row">
+                <th><button onclick="remove('AC')">AC</button></th>
+                <th><button onclick="remove('x')">x</button></th>
+                <th><button onclick="operation('%')">%</button></th>
+                <th><button onclick="operation('/')">/</button></th>
+            </tr>
+            <tr class="row">
+                <th><button onclick="number(7)">7</button></th>
+                <th><button onclick="number(8)">8</button></th>
+                <th><button onclick="number(9)">9</button></th>
+                <th><button onclick="operation('*')">X</button></th>
+            </tr>
+            <tr class="row">
+                <th><button onclick="number(4)">4</button></th>
+                <th><button onclick="number(5)">5</button></th>
+                <th><button onclick="number(6)">6</button></th>
+                <th><button onclick="operation('-')">-</button></th>
+            </tr>
+            <tr class="row">
+                <th><button onclick="number(1)">1</button></th>
+                <th><button onclick="number(2)">2</button></th>
+                <th><button onclick="number(3)">3</button></th>
+                <th><button onclick="operation('+')">+</button></th>
+            </tr>
+            <tr class="row">
+                <th><button onclick="number(0)">0</button></th>
+                <th><button>.</button></th>
+                <th><button onclick="equal()">=</button></th>
+            </tr>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
