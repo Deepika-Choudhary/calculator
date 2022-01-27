@@ -22,12 +22,6 @@ function equal() {
 function remove(op) {
     if (op == 'AC')  document.getElementById('result').value = '';
     if (op == 'x') {
-        let len=result.value.length-1;
-        let i;
-        let res;
-        for(i=0;i<len;i++){
-            res += result.value[i];
-        }
-        document.getElementById('result').value=res;
+        document.getElementById('result').value=result.value.substring(0,result.value.length-1);
     }
 }
